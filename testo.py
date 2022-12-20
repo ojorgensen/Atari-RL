@@ -1,5 +1,5 @@
 import gym
-env = gym.make("LunarLander-v2", render_mode="human")
+env = gym.make("BreakoutNoFrameskip-v4", render_mode="human")
 env.action_space.seed(42)
 
 observation, info = env.reset(seed=42)
